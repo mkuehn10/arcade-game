@@ -1,28 +1,3 @@
-frontend-nanodegree-arcade-game
-===============================
-
-# How to Install/Access
-1) Go to [this site](https://mkuehn10.github.io/portfolio/arcade/).
-
-2) Clone or download the repository and run locally on your machine.
-
-# How to Play
-The object of the game is to get to the river while not running into the nasty
-bugs.  You receive one point every time you make it to the river.  After each
-point is scored, the bugs will start to get angry and begin to move faster.  If
-you are hit by a bug, then the score will be reset to zero and the bugs won't be
-as angry.
-
-The arrow keys control the player (up, down, left, and right).
-
-# Future Improvements/Plans
-* Add different player skins
-* Add different enemy types
-* Record the high score for the session
-* Randomly include obstructions to the player
-* Include collectibles to raise the player's score
-
-# Software License
 MIT License
 
 Copyright (c) 2016 Michael Kuehn
