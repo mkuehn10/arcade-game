@@ -172,3 +172,25 @@ document.addEventListener('keyup', function(e) {
     };
     player.handleInput(allowedKeys[e.keyCode]);
 });
+
+// window.addEventListener('load', function(){
+
+//     // var box1 = document.getElementById('box1')
+//     // var statusdiv = document.getElementById('statusdiv')
+//     // var startx = 0
+//     // var dist = 0
+
+//     // box1.addEventListener('touchstart', function(e){
+//     //     var touchobj = e.changedTouches[0] // reference first touch point (ie: first finger)
+//     //     startx = parseInt(touchobj.clientX) // get x position of touch point relative to left edge of browser
+//     //     statusdiv.innerHTML = 'Status: touchstart<br> ClientX: ' + startx + 'px'
+//     //     e.preventDefault()
+//     // }, false)
+
+//     upButton = document.getElementById('up');
+//     upButton.addEventListener('touchstart', function(e) {
+//     player.handleInput('up');
+//     })
+
+// }, false)
+

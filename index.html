@@ -1,13 +1,52 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <title>Effective JavaScript: Frogger</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <script src="js/resources.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/engine.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Effective JavaScript: Frogger</title>
+        <meta name="viewport" content="user-scalable=0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            .touch-box{
+width: 50px;
+height: 50px;
+padding: 10px;
+border: 1px solid orange;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+background: lightyellow;
+}
+        </style>
+    </head>
+
+    <body>
+        <script src="js/resources.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/engine.js"></script>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                <button onclick="player.handleInput('up')">Up</button>
+                <!-- <div class="touch-box" id="up">UP</div> -->
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-6">
+                    <button onclick="player.handleInput('left')">Left</button>
+                </div>
+                <div class="col-xs-6">
+                    <button onclick="player.handleInput('right')">Right</button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <button onclick="player.handleInput('down')">Down</button>
+                </div>
+            </div>
+        </div>
+
+    </body>
 </html>
